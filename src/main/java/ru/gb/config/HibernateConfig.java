@@ -26,8 +26,8 @@ public class HibernateConfig {
     private String driverClassName;
     @Value("${url}")
     private String url;
-    @Value("${username}")
-    private String username;
+//    @Value("${username}")
+    private String username = "geek";
     @Value("${password}")
     private String password;
 
