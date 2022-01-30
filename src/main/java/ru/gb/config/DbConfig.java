@@ -11,7 +11,7 @@ import org.springframework.jdbc.datasource.SimpleDriverDataSource;
 
 import javax.sql.DataSource;
 import java.sql.Driver;
-//
+
 //@Configuration
 //@PropertySource("classpath:jdbc.properties")
 //@ComponentScan("ru.gb")
@@ -20,12 +20,12 @@ import java.sql.Driver;
 //    private String driverClassName;
 //    @Value("${url}")
 //    private String url;
-//    @Value("${username}")
-//    private String username;
+////    @Value("${username}")  //почему то подставляется имя локального пользователя машины
+//    private String username = "geek";
 //    @Value("${password}")
 //    private String password;
 //
-        //SpringJdbc
+//        ////SpringJdbc
 //    @Bean
 //    public DataSource dataSource() {
 //        SimpleDriverDataSource dataSource = new SimpleDriverDataSource();
@@ -42,7 +42,7 @@ import java.sql.Driver;
 //        return null;
 //    }
 //
-        //JdbcTemplate
+//        ////JdbcTemplate
 //    @Bean
 //    public JdbcTemplate jdbcTemplate() {
 //        JdbcTemplate jdbcTemplate = new JdbcTemplate();
